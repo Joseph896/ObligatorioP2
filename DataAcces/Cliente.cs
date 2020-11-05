@@ -15,5 +15,10 @@ namespace DataAcces
         private char telefono;
         private bool frecuente;
 
+        public string GetNombre()
+        {
+            return this.nombre;
+        }
+
     }
 }
