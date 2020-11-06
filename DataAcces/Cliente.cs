@@ -8,6 +8,11 @@ namespace DataAcces
 {
     public class Cliente
     {
+        public Cliente()
+        {
+
+        }
+
 
         private string nombre;
         private string apellido;
@@ -20,5 +25,49 @@ namespace DataAcces
             return this.nombre;
         }
 
+        public string GetApellido()
+        {
+            return this.apellido;
+        }
+
+        public char GetDocumento()
+        {
+            return this.documento;
+        }
+
+        public char GetTelefono()
+        {
+            return this.telefono;
+        }
+
+        public bool GetFrecuente()
+        {
+            return this.frecuente;
+        }
+
+        public void SetNombre(string _nombre)
+        {
+            this.nombre = _nombre;
+        }
+
+        public void SetApellido(string _apellido)
+        {
+            this.apellido = _apellido;
+        }
+
+        public void SetDocumento(char _documento)
+        {
+            this.documento = _documento;
+        }
+
+        public void SetTelefono(char _telefono)
+        {
+            this.telefono = _telefono;
+        }
+
+        public void SetFrecuente(bool _frecuente)
+        {
+            this.frecuente = _frecuente;
+        }
     }
 }
