@@ -41,14 +41,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Cliente.cs" />
-    <Compile Include="Comanda.cs" />
-    <Compile Include="Cuenta.cs" />
-    <Compile Include="Mesa.cs" />
-    <Compile Include="Mozo.cs" />
-    <Compile Include="Opcion.cs" />
+    <Compile Include="Clases\Cliente.cs" />
+    <Compile Include="Clases\Comanda.cs" />
+    <Compile Include="Clases\Cuenta.cs" />
+    <Compile Include="DTO\DtoCliente.cs" />
+    <Compile Include="DTO\DtoComanda.cs" />
+    <Compile Include="DTO\DtoCuenta.cs" />
+    <Compile Include="DTO\DtoMesa.cs" />
+    <Compile Include="DTO\DtoOpcion.cs" />
+    <Compile Include="DTO\DtoPersona.cs" />
+    <Compile Include="DTO\DtoReserva.cs" />
+    <Compile Include="Clases\Mesa.cs" />
+    <Compile Include="Clases\Mozo.cs" />
+    <Compile Include="Clases\Opcion.cs" />
+    <Compile Include="Listas.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Reserva.cs" />
+    <Compile Include="Clases\Reserva.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

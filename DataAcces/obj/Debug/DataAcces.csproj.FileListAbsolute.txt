@@ -1,0 +1,6 @@
+I:\Users\Esteban\Desktop\Curso Analista programador Clases Online\Programacion 2\Opbligatorio prog II GitHub\DataAcces\bin\Debug\DataAcces.dll
+I:\Users\Esteban\Desktop\Curso Analista programador Clases Online\Programacion 2\Opbligatorio prog II GitHub\DataAcces\bin\Debug\DataAcces.pdb
+I:\Users\Esteban\Desktop\Curso Analista programador Clases Online\Programacion 2\Opbligatorio prog II GitHub\DataAcces\obj\Debug\DataAcces.csprojAssemblyReference.cache
+I:\Users\Esteban\Desktop\Curso Analista programador Clases Online\Programacion 2\Opbligatorio prog II GitHub\DataAcces\obj\Debug\DataAcces.csproj.CoreCompileInputs.cache
+I:\Users\Esteban\Desktop\Curso Analista programador Clases Online\Programacion 2\Opbligatorio prog II GitHub\DataAcces\obj\Debug\DataAcces.dll
+I:\Users\Esteban\Desktop\Curso Analista programador Clases Online\Programacion 2\Opbligatorio prog II GitHub\DataAcces\obj\Debug\DataAcces.pdb

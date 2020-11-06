@@ -41,7 +41,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ClienteHelper.cs" />
+    <Compile Include="ComandaHelper.cs" />
+    <Compile Include="CuentaHelper.cs" />
+    <Compile Include="MesaHelper.cs" />
+    <Compile Include="MozoHelper.cs" />
+    <Compile Include="PersonaHelper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReservaHelper.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
