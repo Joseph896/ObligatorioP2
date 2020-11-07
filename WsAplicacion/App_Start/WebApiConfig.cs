@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Web.Http;
+using System.Web.Http.Cors;
 
 namespace WsAplicacion
 {
@@ -11,6 +13,11 @@ namespace WsAplicacion
         {
             // Configuración y servicios de API web
 
+            
+            config.MapHttpAttributeRoutes();
+            var cros = new EnableCorsAttribute("*", "*", "*");
+            config.EnableCors(cros);
+
             // Rutas de API web
             config.MapHttpAttributeRoutes();
 
@@ -19,6 +26,8 @@ namespace WsAplicacion
                 routeTemplate: "api/{controller}/{id}",
                 defaults: new { id = RouteParameter.Optional }
             );
+            config.Formatters.Clear();
+            config.Formatters.Add(new System.Net.Http.Formatting.JsonMediaTypeFormatter());
         }
     }
 }
