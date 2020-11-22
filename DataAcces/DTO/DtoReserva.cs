@@ -8,5 +8,12 @@ namespace DataAcces.DTO
 {
     public class DtoReserva
     {
+        public string numero;
+        public string cantidadComensales;
+        public string fechaHoraDeReserva;
+        public string documento;
+        public string nombre;
+        public string apellido;
+        public string mesa;
     }
 }

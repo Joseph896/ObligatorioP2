@@ -50,5 +50,11 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ReservaHelper.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DataAcces\DataAcces.csproj">
+      <Project>{FBC142E0-C4C1-468D-9E16-72E2C7C21D73}</Project>
+      <Name>DataAcces</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

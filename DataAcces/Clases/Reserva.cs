@@ -14,8 +14,18 @@ namespace DataAcces
 
         }
 
+        public Reserva(int _numero, short _ctdComensales, DateTime _fecha,  Cliente _cliente, Mesa _mesa)
+        {
+            this.numero = _numero;
+            this.cantidadComensales = _ctdComensales;
+            this.fechaHoraDeReserva = _fecha;
+            this.cliente = _cliente;
+            this.mesa = _mesa;
+
+        }
+
         private int numero;
-        private byte cantidadComensales;
+        private short cantidadComensales;
         private DateTime fechaHoraDeReserva;
         private Cliente cliente;
         private Mesa mesa;
@@ -25,7 +35,7 @@ namespace DataAcces
         {
             return this.numero;
         }
-        public byte GetCantidadComensales()
+        public short GetCantidadComensales()
         {
             return this.cantidadComensales;
         }

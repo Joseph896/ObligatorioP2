@@ -1,0 +1,9 @@
+C:\Users\Jose\Source\Repos\ObligatorioP22\BussinesLogic\bin\Debug\BussinesLogic.dll
+C:\Users\Jose\Source\Repos\ObligatorioP22\BussinesLogic\bin\Debug\BussinesLogic.pdb
+C:\Users\Jose\Source\Repos\ObligatorioP22\BussinesLogic\bin\Debug\DataAcces.dll
+C:\Users\Jose\Source\Repos\ObligatorioP22\BussinesLogic\bin\Debug\DataAcces.pdb
+C:\Users\Jose\Source\Repos\ObligatorioP22\BussinesLogic\obj\Debug\BussinesLogic.csprojAssemblyReference.cache
+C:\Users\Jose\Source\Repos\ObligatorioP22\BussinesLogic\obj\Debug\BussinesLogic.csproj.CoreCompileInputs.cache
+C:\Users\Jose\Source\Repos\ObligatorioP22\BussinesLogic\obj\Debug\BussinesLogic.csproj.CopyComplete
+C:\Users\Jose\Source\Repos\ObligatorioP22\BussinesLogic\obj\Debug\BussinesLogic.dll
+C:\Users\Jose\Source\Repos\ObligatorioP22\BussinesLogic\obj\Debug\BussinesLogic.pdb

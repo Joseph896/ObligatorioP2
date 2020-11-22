@@ -2,9 +2,62 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <title></title>
+    <script src="../js/index.js"></script>
+    <script src="../js/jQuery3.5.1.js"></script>
+    <title>Recepcion</title>
+    <link rel="icon" href="data:;base64,iVBORw0KGgo=">
 </head>
 <body>
-
+    <div>
+        <p>Buscar Cliente</p>
+        <input type="text" id="buscar" />
+        <input type="button" value="Buscar" onclick="BuscarCliente()" />
+    </div>
+    <form id="reservas">
+        <p>Nombre</p>
+        <input type="text" id="nombre" />
+        <p>Apellido</p>
+        <input type="text" id="apellido" />
+        <p>Documento</p>
+        <input type="text" id="doc" />
+        <p>Telefono</p>
+        <input type="text" id="tel" />
+        <p>Cantidad de comensales</p>
+        <input type="number" id="cantidad" />
+        <p>Numero de mesa</p>
+        <input type="number" id="mesa" required />
+        <p>Fecha y Hora</p>
+        <input type="datetime-local" id="fecha" />
+        <input type="button" value="Aceptar" onclick="AgregarReserva()" />
+    </form>
+    <div id="modal">
+        <p>Usuario no registrado</p>
+        <form>
+            <p>Nombre</p>
+            <input type="text" id="nombreC" />
+            <p>Apellido</p>
+            <input type="text" id="apellidoC" />
+            <p>Documento</p>
+            <input type="text" id="docC" />
+            <p>Telefono</p>
+            <input type="text" id="telC" />
+        </form>
+        <input type="button" value="Registrar Usuario" onclick="RegistrarCliente()" />
+        <input type="button" value="Listar Reservas" onclick="ListarReservas()" />
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>Numero</th>
+                    <th>Cliente</th>
+                    <th>Mesa</th>
+                    <th>Fecha</th>
+                    <th>Cantidad de comensales</th>
+                </tr>
+            </thead>
+            <tbody id="tblReservas">
+            </tbody>
+        </table>
+    </div>
 </body>
 </html>

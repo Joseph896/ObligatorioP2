@@ -8,5 +8,10 @@ namespace DataAcces.DTO
 {
     public class DtoCliente
     {
+        public string nombre;
+        public string apellido;
+        public string documento;
+        public string telefono;
+        public string frecuente;
     }
 }

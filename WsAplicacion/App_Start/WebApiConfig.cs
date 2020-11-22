@@ -14,7 +14,7 @@ namespace WsAplicacion
             // Configuración y servicios de API web
 
             
-            config.MapHttpAttributeRoutes();
+            
             var cros = new EnableCorsAttribute("*", "*", "*");
             config.EnableCors(cros);
 

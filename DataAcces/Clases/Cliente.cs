@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DataAcces.DTO;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -13,11 +14,19 @@ namespace DataAcces
 
         }
 
+        public Cliente (string _nombre, string _apellido, string _documento, string _telefono)
+        {
+            this.nombre = _nombre;
+            this.apellido = _apellido;
+            this.documento = _documento;
+            this.telefono = _telefono;
+        }
+
 
         private string nombre;
         private string apellido;
-        private char documento;
-        private char telefono;
+        private string documento;
+        private string telefono;
         private bool frecuente;
 
         public string GetNombre()
@@ -30,12 +39,12 @@ namespace DataAcces
             return this.apellido;
         }
 
-        public char GetDocumento()
+        public string GetDocumento()
         {
             return this.documento;
         }
 
-        public char GetTelefono()
+        public string GetTelefono()
         {
             return this.telefono;
         }
@@ -55,12 +64,12 @@ namespace DataAcces
             this.apellido = _apellido;
         }
 
-        public void SetDocumento(char _documento)
+        public void SetDocumento(string _documento)
         {
             this.documento = _documento;
         }
 
-        public void SetTelefono(char _telefono)
+        public void SetTelefono(string _telefono)
         {
             this.telefono = _telefono;
         }
@@ -69,5 +78,7 @@ namespace DataAcces
         {
             this.frecuente = _frecuente;
         }
+
+        
     }
 }

@@ -13,22 +13,29 @@ namespace DataAcces
 
         }
 
-        private ushort nroDeMesa;
-        private byte seccion;
-        private ushort cantDeSillas;
+        public Mesa(short _nroDeMesa, short _seccion, short _cantDeSillas)
+        {
+            this.nroDeMesa = _nroDeMesa;
+            this.seccion = _seccion;
+            this.cantDeSillas = _cantDeSillas;
+        }
+
+        private short nroDeMesa;
+        private short seccion;
+        private short cantDeSillas;
         private Reserva reserva;
 
-        public ushort GetNroDeMesa()
+        public short GetNroDeMesa()
         {
             return this.nroDeMesa;
         }
 
-        public byte GetSeccion()
+        public short GetSeccion()
         {
             return this.seccion;
         }
 
-        public ushort GetCantDeSillas()
+        public short GetCantDeSillas()
         {
             return this.cantDeSillas;
         }
@@ -38,17 +45,17 @@ namespace DataAcces
             return this.reserva;
         }
 
-        public void SetNroDeMesa(ushort _nroDeMesa)
+        public void SetNroDeMesa(short _nroDeMesa)
         {
             this.nroDeMesa = _nroDeMesa;
         }
 
-        public void SetSeccion(byte _seccion)
+        public void SetSeccion(short _seccion)
         {
             this.seccion = _seccion;
         }
 
-        public void SetCantDeSillas(ushort _cantDeSillas)
+        public void SetCantDeSillas(short _cantDeSillas)
         {
             this.cantDeSillas = _cantDeSillas;
         }
